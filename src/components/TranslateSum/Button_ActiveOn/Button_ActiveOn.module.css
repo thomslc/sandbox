@@ -1,0 +1,27 @@
+.root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 343px;
+  height: 52px;
+  place-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #3d70ff;
+}
+.button {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: SF Pro Text, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.408px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
